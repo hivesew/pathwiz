@@ -1,0 +1,22 @@
+{
+  "name": "pathwiz",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --open --port 3000",
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@types/three": "^0.161.0",
+    "three": "^0.161.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-checker": "^0.6.2",
+    "lil-gui": "^0.19.2"
+  }
+}
